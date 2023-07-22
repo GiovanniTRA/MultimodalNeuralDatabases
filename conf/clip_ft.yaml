@@ -1,0 +1,26 @@
+device: "cuda:2"
+seed: 42
+
+data:
+  batch_size: 22
+  num_workers: 12
+  dataset_path: "/home/giotra/Projects/MMNDB/test/support_materials/raw/images"
+
+retriever:
+  clip_library: "openai"
+  clip_model: "RN50"
+  # clip available models: ['RN50', 'RN101', 'RN50x4', 'RN50x16', 'RN50x64', 'ViT-B/32', 'ViT-B/16', 'ViT-L/14', 'ViT-L/14@336px']
+#  clip_library: "open_clip"
+#  clip_model: "ViT-bigG-14/laion2b_s39b_b160k"
+
+optim:
+  lr: 0.00001 #Learning rate
+
+training:
+  save_path: "/home/giotra/Projects/MNDB-Andrea/MMNDB/test/checkpoints2"
+  train_txt_branch: false
+  epochs: 1 #Number of epochs
+  patience: 3 #Number of epochs to wait before early stopping
+  gradient_clip_val: 1.0 #Gradient clipping value
+  precision: bf16 #Use half precision
+  check_val_every_n_epoch: 1 #Check validation every n epochs
