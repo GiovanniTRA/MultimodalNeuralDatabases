@@ -4,7 +4,7 @@ seed: 42
 data:
   batch_size: 22
   num_workers: 12
-  dataset_path: "/home/giotra/Projects/MMNDB/test/support_materials/raw/images"
+  dataset_path: "support_materials/raw/images"
 
 retriever:
   clip_library: "openai"
@@ -17,7 +17,7 @@ optim:
   lr: 0.00001 #Learning rate
 
 training:
-  save_path: "/home/giotra/Projects/MNDB-Andrea/MMNDB/test/checkpoints2"
+  save_path: "test/checkpoints2"
   train_txt_branch: false
   epochs: 1 #Number of epochs
   patience: 3 #Number of epochs to wait before early stopping
