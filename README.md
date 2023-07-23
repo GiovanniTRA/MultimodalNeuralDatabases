@@ -1,6 +1,6 @@
 # Multimodal Neural Databases
 
-This repository contains the code of the paper "Multimodal Neural Databases".
+This repository contains the code of the paper "Multimodal Neural Databases", paper accepted at SIGIR2023.
 
 
 ## Download the dataset and checkpoints
@@ -40,10 +40,21 @@ To finetune the stopping algorithm you can use the script `scripts/stopping_algo
 If you use this code please cite:
 
 ```bibtex
-@article{trappolini2023multimodal,
-  title={Multimodal Neural Databases},
-  author={Trappolini, Giovanni and Santilli, Andrea and Rodol{\`a}, Emanuele and Halevy, Alon and Silvestri, Fabrizio},
-  journal={arXiv preprint arXiv:2305.01447},
-  year={2023}
+@inproceedings{10.1145/3539618.3591930,
+author = {Trappolini, Giovanni and Santilli, Andrea and Rodol\`{a}, Emanuele and Halevy, Alon and Silvestri, Fabrizio},
+title = {Multimodal Neural Databases},
+year = {2023},
+isbn = {9781450394086},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3539618.3591930},
+doi = {10.1145/3539618.3591930},
+abstract = {The rise in loosely-structured data available through text, images, and other modalities has called for new ways of querying them. Multimedia Information Retrieval has filled this gap and has witnessed exciting progress in recent years. Tasks such as search and retrieval of extensive multimedia archives have undergone massive performance improvements, driven to a large extent by recent developments in multimodal deep learning. However, methods in this field remain limited in the kinds of queries they support and, in particular, their inability to answer database-like queries. For this reason, inspired by recent work on neural databases, we propose a new framework, which we name Multimodal Neural Databases (MMNDBs). MMNDBs can answer complex database-like queries that involve reasoning over different input modalities, such as text and images, at scale. In this paper, we present the first architecture able to fulfill this set of requirements and test it with several baselines, showing the limitations of currently available models. The results show the potential of these new techniques to process unstructured data coming from different modalities, paving the way for future research in the area.},
+booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+pages = {2619–2628},
+numpages = {10},
+keywords = {databases, neural networks, multimedia information retrieval},
+location = {Taipei, Taiwan},
+series = {SIGIR '23}
 }
 ```
