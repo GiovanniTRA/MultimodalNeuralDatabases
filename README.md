@@ -1,6 +1,6 @@
 # Multimodal Neural Databases
 
-This repository contains the code of the paper "Multimodal Neural Databases", paper accepted at SIGIR2023.
+This repository contains the code of the paper "Multimodal Neural Databases", [paper](https://dl.acm.org/doi/10.1145/3539618.3591930) accepted at SIGIR2023.
 
 
 ## Download the dataset and checkpoints
