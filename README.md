@@ -6,6 +6,7 @@ This repository contains the code of the paper "Multimodal Neural Databases", [p
 ## Download the dataset and checkpoints
 
 You can find the preprocessed dataset and model checkpoints at [this link](http://www.diag.uniroma1.it/trappolini/support_materials.zip).
+
 UPDATE: The link might not work from Google Chrome. If you are having troubles, you can download the zipped file from this google drive [link](https://drive.google.com/file/d/156hlY2wehd4CgkkMYjXphxAOEt6ps-fv/view?usp=sharing).
 
 Remember to change the corresponding paths in the  `conf/config.yaml` file.
